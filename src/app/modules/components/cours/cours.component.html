@@ -1,0 +1,81 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <a class="navbar-brand" href="/add">Cours</a>
+    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="collapsibleNavId">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/login">Logout<span class="sr-only">(current)</span>
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>    
+    </div>
+</nav>  
+<div class="row my-4">
+    <div class="col-md-6">
+        <h3>Liste des cours</h3>
+    </div>
+  
+</div>
+<!-- *ngIf = "showForm" -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="label">Titre</label>
+                <input [(ngModel)] = "monCours.titre" id="label" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="label">Formateur</label>
+                <input [(ngModel)] = "monCours.formateur" id="label" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="label">Duree</label>
+                <input [(ngModel)] = "monCours.duree" id="label" type="text" class="form-control">
+            </div>
+
+
+            <div class="form-group">
+                <label for="label">Description</label>
+                <input [(ngModel)] = "monCours.description" id="label" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="labelo">Contenu</label>
+                    <textarea [(ngModel)] = "monCours.contenu" class="form-control" id="labelo" rows="5"></textarea>
+            </div>
+            <!-- *ngIf="editForm" -->
+            <button (click) = "updateCours()" class="btn btn-primary btn-block">
+                <i class="fa fa-refresh"></i>Mettre à jour cours
+            </button>
+            
+            <button *ngIf = "!editForm" (click) = "persistCours()" class="btn btn-primary btn-block">
+                <i class="fa fa-send"></i>Nouveau cours
+            </button>
+        </div>
+        <div class="col-md-6">
+            <input (keyup)="searchCours()" [(ngModel)]="SearchText" placeholder="Recherche" type="text" class="form-control">
+
+            <ul class="list-group">
+                
+                <li *ngFor="let cours of resultCours " class="list-group-item d-flex justify-content-between align-items-center">
+                    <button (click) = "editCours(cours)" class="btn btn-warning btn-sm">
+                        <i class="fa fa-pencil"></i>
+                    </button>
+    
+                    {{cours.titre}}
+                    <span class="badge badge-secondary badge-pill">
+                    </span>
+    
+                    <button (click)="deleteCours(cours)" class="btn btn-sm btn-dark">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+

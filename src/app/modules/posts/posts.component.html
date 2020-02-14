@@ -1,0 +1,16 @@
+
+<div   class="container">
+  <div class="row">
+    <div *ngFor ="let c of formatios" class="col-sm-4">
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="././././assets/ss.jpg" alt="Card image cap">
+  <div  class="card-body">
+    <h5 class="card-title">{{c.titre}}</h5>
+    <h6 class="card-title">{{c.formateur}}</h6>
+    <p class="card-text">{{c.description}}</p>
+    <button [disabled]="c.isAdded" (click) ="addcour(c.id)" class="btn btn-primary">ajouter</button>
+    <i *ngIf="c.isAdded" class="fas fa-check added"></i>
+  </div>
+</div>
+</div>
+</div>

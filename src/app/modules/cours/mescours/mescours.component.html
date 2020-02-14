@@ -1,0 +1,19 @@
+<p>Mes cours </p>
+<div class="container">
+    <p *ngIf="mycour.length === 0"> Vous n'avez pas aucun cours disponible ! </p>
+    <div class="row">
+      <div *ngFor ="let c of mycour" class="col-sm-4">
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="././././assets/ss.jpg" alt="Card image cap">
+    <div  class="card-body">
+      <h5 class="card-title">{{c.titre}}</h5>
+      <h6 class="card-title">{{c.formateur}}</h6>
+      <p class="card-text">{{c.description}}</p>
+      <button (click)="consulte(c.id)" class="btn btn-primary"  routerLink="/detail">Consulter</button>
+    </div>
+  </div>
+  </div>
+  </div>
+  
+
+

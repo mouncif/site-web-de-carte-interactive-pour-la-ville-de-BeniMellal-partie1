@@ -1,0 +1,32 @@
+<mat-nav-list>
+    <div class="profile-card">
+        <div class="header">
+            <h3>{{ user.nom }} {{ user.prenom }}</h3>
+            <h4>{{ user.email }}</h4>
+        </div>
+        <img src="././././assets/kk.PNG" alt="kamal_kaddoury">
+    </div>
+
+    <mat-divider></mat-divider>
+    <h2 matSubheader>Pages</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">
+        <i class="material-icons">account_balance</i>Accueil</a>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/posts">
+        <i class="material-icons">
+            library_books
+            </i>Cours disponibles</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/mescours">
+        <i class="material-icons">
+            list
+            </i>Mes cours </a>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/login">
+        <i class="fas fa-sign-out-alt"></i>
+            se déconnecter  </a>
+
+    <mat-divider></mat-divider>
+ 
+
+</mat-nav-list>
