@@ -1,40 +1,13 @@
 {
   "formation": [
     {
-      "titre": "JAVA reflexion",
-      "description": "sdddddddd",
-      "contenu": "ddddddddddddddddddddddddd",
-      "nomF": "",
-      "duree": "20",
-      "formateur": "kamal",
-      "id": 1
-    },
-    {
-      "titre": "dd",
-      "description": "ddd",
-      "contenu": "dd",
-      "nomF": "MR kamal",
-      "duree": "20",
-      "formateur": "kamal",
-      "id": 3
-    },
-    {
-      "titre": "Front End ",
-      "description": "Cours Développement WEB",
-      "contenu": "Le World Wide Web [ˌwɝld waɪd ˈwɛb], le réseau mondial ou la Toile, est un système hypertexte public fonctionnant sur Internet. Le Web permet de consulter, avec un navigateur, des pages accessibles sur des sites. L’image de la toile d’araignée vient des hyperliens qui lient les pages web entre elles.",
+      "titre": "Python",
+      "description": "Programmation Réseau",
+      "contenu": "Découvrez Python\nVous avez décidé d'apprendre le Python et je ne peux que vous en féliciter. J'essayerai d'anticiper vos questions et de ne laisser personne en arrière.\n\nDans ce chapitre, je vais d'abord vous expliquer ce qu'est un langage de programmation. Nous verrons ensuite brièvement l'histoire de Python, afin que vous sachiez au moins d'où vient ce langage ! Ce chapitre est théorique mais je vous conseille vivement de le lire quand même.\n\nLa dernière section portera sur l'installation de Python, une étape essentielle pour continuer ce tutoriel. Que vous travailliez avec Windows, Linux ou Mac OS X, vous y trouverez des explications précises sur l'installation.\nAllez, on attaque !\nLa communication humaine\nNon, ceci n'est pas une explication biologique ou philosophique, ne partez pas !\nTrès simplement, si vous arrivez à comprendre ces suites de symboles étranges et déconcertants que sont les lettres de l'alphabet, c'est parce que nous respectons certaines conventions, dans le langage et dans l'écriture. En français, il y a des règles de grammaire et d'orthographe, je ne vous apprends rien. Vous communiquez en connaissant plus ou moins consciemment ces règles et en les appliquant plus ou moins bien, selon les cas.\nCependant, ces règles peuvent être aisément contournées : personne ne peut prétendre connaître l'ensemble des règles de la grammaire et de l'orthographe françaises, et peu de gens s'en soucient. Après tout, même si vous faites des fautes, les personnes avec qui vous communiquez pourront facilement vous comprendre.\nQuand on communique avec un ordinateur, cependant, c'est très différent.",
       "nomF": "",
       "duree": "20H",
-      "formateur": "Mr Mouncif",
-      "id": 2
-    },
-    {
-      "titre": "a",
-      "description": "30H",
-      "contenu": "DD",
-      "nomF": "",
-      "duree": "c",
-      "formateur": "b",
-      "id": 4
+      "formateur": "Mr Darif",
+      "id": 1
     }
   ],
   "users": [
@@ -75,54 +48,13 @@
   ],
   "mycours": [
     {
-      "titre": "JAVA reflexion",
-      "description": "sdddddddd",
-      "contenu": "ddddddddddddddddddddddddd",
+      "titre": "Python",
+      "description": "Programmation Réseau",
+      "contenu": "Découvrez Python\nVous avez décidé d'apprendre le Python et je ne peux que vous en féliciter. J'essayerai d'anticiper vos questions et de ne laisser personne en arrière.\n\nDans ce chapitre, je vais d'abord vous expliquer ce qu'est un langage de programmation. Nous verrons ensuite brièvement l'histoire de Python, afin que vous sachiez au moins d'où vient ce langage ! Ce chapitre est théorique mais je vous conseille vivement de le lire quand même.\n\nLa dernière section portera sur l'installation de Python, une étape essentielle pour continuer ce tutoriel. Que vous travailliez avec Windows, Linux ou Mac OS X, vous y trouverez des explications précises sur l'installation.\nAllez, on attaque !\nLa communication humaine\nNon, ceci n'est pas une explication biologique ou philosophique, ne partez pas !\nTrès simplement, si vous arrivez à comprendre ces suites de symboles étranges et déconcertants que sont les lettres de l'alphabet, c'est parce que nous respectons certaines conventions, dans le langage et dans l'écriture. En français, il y a des règles de grammaire et d'orthographe, je ne vous apprends rien. Vous communiquez en connaissant plus ou moins consciemment ces règles et en les appliquant plus ou moins bien, selon les cas.\nCependant, ces règles peuvent être aisément contournées : personne ne peut prétendre connaître l'ensemble des règles de la grammaire et de l'orthographe françaises, et peu de gens s'en soucient. Après tout, même si vous faites des fautes, les personnes avec qui vous communiquez pourront facilement vous comprendre.\nQuand on communique avec un ordinateur, cependant, c'est très différent.",
       "nomF": "",
-      "duree": "20",
-      "formateur": "kamal",
+      "duree": "20H",
+      "formateur": "Mr Darif",
       "id": "1-3",
-      "idUser": 3
-    },
-    {
-      "titre": "ddd",
-      "description": "dd",
-      "contenu": "ddd",
-      "nomF": "",
-      "duree": "25",
-      "formateur": "dd",
-      "id": "2-3",
-      "idUser": 3
-    },
-    {
-      "titre": "JAVA reflexion",
-      "description": "sdddddddd",
-      "contenu": "ddddddddddddddddddddddddd",
-      "nomF": "",
-      "duree": "20",
-      "formateur": "kamal",
-      "id": "1-2",
-      "idUser": 2
-    },
-    {
-      "titre": "dd",
-      "description": "ddd",
-      "contenu": "dd",
-      "nomF": "MR kamal",
-      "duree": "20",
-      "formateur": "kamal",
-      "id": "3-3",
-      "isAdded": false,
-      "idUser": 3
-    },
-    {
-      "titre": "a",
-      "description": "30H",
-      "contenu": "DD",
-      "nomF": "",
-      "duree": "c",
-      "formateur": "b",
-      "id": "4-3",
       "isAdded": false,
       "idUser": 3
     }
