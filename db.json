@@ -57,6 +57,16 @@
       "id": "1-3",
       "isAdded": false,
       "idUser": 3
+    },
+    {
+      "titre": "Python",
+      "description": "Programmation Réseau",
+      "contenu": "Découvrez Python\nVous avez décidé d'apprendre le Python et je ne peux que vous en féliciter. J'essayerai d'anticiper vos questions et de ne laisser personne en arrière.\n\nDans ce chapitre, je vais d'abord vous expliquer ce qu'est un langage de programmation. Nous verrons ensuite brièvement l'histoire de Python, afin que vous sachiez au moins d'où vient ce langage ! Ce chapitre est théorique mais je vous conseille vivement de le lire quand même.\n\nLa dernière section portera sur l'installation de Python, une étape essentielle pour continuer ce tutoriel. Que vous travailliez avec Windows, Linux ou Mac OS X, vous y trouverez des explications précises sur l'installation.\nAllez, on attaque !\nLa communication humaine\nNon, ceci n'est pas une explication biologique ou philosophique, ne partez pas !\nTrès simplement, si vous arrivez à comprendre ces suites de symboles étranges et déconcertants que sont les lettres de l'alphabet, c'est parce que nous respectons certaines conventions, dans le langage et dans l'écriture. En français, il y a des règles de grammaire et d'orthographe, je ne vous apprends rien. Vous communiquez en connaissant plus ou moins consciemment ces règles et en les appliquant plus ou moins bien, selon les cas.\nCependant, ces règles peuvent être aisément contournées : personne ne peut prétendre connaître l'ensemble des règles de la grammaire et de l'orthographe françaises, et peu de gens s'en soucient. Après tout, même si vous faites des fautes, les personnes avec qui vous communiquez pourront facilement vous comprendre.\nQuand on communique avec un ordinateur, cependant, c'est très différent.",
+      "nomF": "",
+      "duree": "20H",
+      "formateur": "Mr Darif",
+      "id": "1-undefined",
+      "isAdded": false
     }
   ]
 }
